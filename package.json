@@ -1,0 +1,59 @@
+{
+    "name": "vscode-theme-porifa-light",
+    "displayName": "Porifa Light Theme",
+    "description": "Light Theme by Porifa",
+    "version": "1.0.0",
+    "publisher": "porifa",
+    "license": "MIT",
+    "galleryBanner": {
+		"color": "#E8E8E8",
+		"theme": "light"
+	},
+    "engines": {
+       "vscode": "^1.12.0"
+    },
+    "categories": [
+    "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "light",
+        "porifa light"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Porifa",
+                "uiTheme": "vs",
+                "path": "./themes/PorifaLight.json"
+            }
+        ]
+    },
+    "bugs": {
+        "url": "https://github.com/porifa/vscode-theme-porifa-light/issues",
+        "email": "aamirsohailkmas@gmail.com"
+    },
+    "homepage": "https://github.com/porifa/vscode-theme-porifa-light",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/porifa/vscode-theme-porifa-light"
+    },
+    "badges": [
+		{
+			"url": "https://vsmarketplacebadge.apphb.com/version/porifa.vscode-theme-porifa-light.svg",
+			"href": "https://marketplace.visualstudio.com/items/porifa.vscode-theme-porifa-light",
+			"description": "Extension version"
+		},
+		{
+			"url": "https://vsmarketplacebadge.apphb.com/installs/porifa.vscode-theme-porifa-light.svg",
+			"href": "https://marketplace.visualstudio.com/items/porifa.vscode-theme-porifa-light",
+			"description": "Extension installs"
+		},
+		{
+			"url": "https://vsmarketplacebadge.apphb.com/rating/porifa.vscode-theme-porifa-light.svg",
+			"href": "https://marketplace.visualstudio.com/items/porifa.vscode-theme-porifa-light",
+			"description": "Extension Rating"
+		}
+	]
+}
